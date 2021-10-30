@@ -1,0 +1,151 @@
+/* Text colors */
+.text-primary {
+	color: #f17290;
+	/* color: #0089ff; */
+}
+
+.text-secondary {
+	color: #50c0edde;
+}
+
+/* Button */
+
+.btn {
+	cursor: pointer;
+	display: inline-block;
+	padding: 10px 30px;
+	color: #fff;
+	background-color: #f17290;
+	border: none;
+	border-radius: 5px;
+}
+
+.btn:hover {
+	opacity: 0.9;
+}
+
+.btn-primary,
+.bg-primary {
+	background: #f17290;
+	color: #fff;
+}
+
+.btn-secondary,
+.bg-secondary {
+	background: #50c0edde;
+	color: #fff;
+}
+
+.btn-dark,
+.bg-dark {
+	background: #333;
+	color: #fff;
+}
+
+.btn-light,
+.bg-light {
+	background: #f4f4f4;
+	color: #333;
+}
+
+.btn-outline {
+	background: transparent;
+	border: solid #fff;
+}
+
+/* Flex items */
+.flex-items {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+/* Has effect on all Div in the parrent (flex-items) */
+.flex-items > div {
+	padding: 20px;
+}
+
+/* Flex colums */
+.flex-columns.flex-reverse .row {
+	flex-direction: row-reverse;
+}
+
+.flex-columns .row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.flex-columns .column {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100;
+	flex: 1;
+}
+
+.flex-columns .column .column-1,
+.flex-columns .column .column-2 {
+	height: 100%;
+}
+
+.flex-columns img {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.flex-columns .column-2 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 30px;
+}
+
+.flex-columns h2 {
+	font-size: 40px;
+	font-weight: 100;
+}
+.flex-columns h4 {
+	margin-bottom: 10px;
+}
+
+.flex-columns p {
+	font-size: 1rem;
+	margin: 20px 0;
+}
+
+/* Section header */
+.section-header {
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.section-header h2 {
+	font-size: 40px;
+	margin: 20px 0;
+}
+.section-padding {
+	padding: 20px;
+}
+
+/* Flex Grid */
+.flex-grid .row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+
+.flex-grid .column {
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+}
